@@ -1,0 +1,11 @@
+{
+    "cortex-debug.openocdPath": "/usr/local/bin/openocd",
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:HOME}/Zephyr/zephyr/scripts:${env:HOME}/Zephyr/.venv/bin:${env:PATH}",
+        "ZEPHYR_BASE": "${env:HOME}/Zephyr/zephyr",
+    },
+    "files.associations": {
+        "*.dts": "dts",
+        "typeinfo": "c"
+    },
+}

@@ -1,0 +1,5 @@
+1. Install Zephyr
+2. Make Directory steructure - see inital commit of https://github.com/kboko/KLightModule.git
+3. Execute: source HOME../zephyr/zephyr-env.sh
+4. west build -b rpi_pico
+5. cp build/zephyr/zephyr.uf2 /media/ksv/RPI-RP2/
